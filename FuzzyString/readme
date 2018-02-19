@@ -1,0 +1,11 @@
+run these commands to make this project
+
+for /r %x in (*.config1) do ren "%x" *.config
+
+for /r %x in (*.sln1) do ren "%x" *.sln
+
+for /r %x in (*.csproj1) do ren "%x" *.csproj
+
+for /r %x in (*.txt) do ren "%x" *.cs
+
+for /r %x in (*.manifest1) do ren "%x" *.manifest
